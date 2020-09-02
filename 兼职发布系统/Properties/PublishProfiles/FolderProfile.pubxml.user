@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://localhost:9050/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="app.config">
+      <publishTime>01/09/2020 08:41:53</publishTime>
+    </File>
+    <File Include="App_Data/Work_se.mdf">
+      <publishTime>03/20/2020 16:06:35</publishTime>
+    </File>
+    <File Include="App_Data/Work_se_log.ldf">
+      <publishTime>03/20/2020 16:06:35</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>12/09/2019 22:34:04</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>12/09/2019 22:33:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Tools.Components.dll">
+      <publishTime>03/20/2020 14:11:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>12/09/2019 22:33:57</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>12/09/2019 22:34:01</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>12/09/2019 22:33:58</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>12/09/2019 22:34:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>12/09/2019 22:34:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>12/09/2019 22:34:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>12/09/2019 22:34:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>12/09/2019 22:34:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>12/09/2019 22:34:03</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>12/09/2019 22:33:59</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>12/09/2019 22:33:59</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>12/09/2019 22:33:59</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>12/09/2019 22:34:00</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>12/09/2019 22:34:04</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/EntityFramework.resources.dll">
+      <publishTime>12/09/2019 22:34:09</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Tools.Components.resources.dll">
+      <publishTime>03/20/2020 14:11:40</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Net.Http.Formatting.resources.dll">
+      <publishTime>12/09/2019 22:34:08</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.resources.dll">
+      <publishTime>12/09/2019 22:34:07</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.WebHost.resources.dll">
+      <publishTime>12/09/2019 22:34:07</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Mvc.resources.dll">
+      <publishTime>12/09/2019 22:34:07</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Optimization.resources.dll">
+      <publishTime>12/09/2019 22:34:08</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Providers.resources.dll">
+      <publishTime>12/09/2019 22:34:09</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Razor.resources.dll">
+      <publishTime>12/09/2019 22:34:06</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>12/09/2019 22:34:06</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>12/09/2019 22:34:06</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.resources.dll">
+      <publishTime>12/09/2019 22:34:06</publishTime>
+    </File>
+    <File Include="bin/兼职发布系统.dll">
+      <publishTime>03/20/2020 16:08:16</publishTime>
+    </File>
+    <File Include="bin/兼职发布系统.pdb">
+      <publishTime>03/20/2020 16:08:16</publishTime>
+    </File>
+    <File Include="Content/myinfo.css">
+      <publishTime>12/15/2019 13:58:01</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/09/2019 22:33:48</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/09/2019 22:34:09</publishTime>
+    </File>
+    <File Include="Scripts/jeDate/dist/jedate.min.js">
+      <publishTime>12/12/2019 19:39:32</publishTime>
+    </File>
+    <File Include="Scripts/jeDate/skin/jedate.css">
+      <publishTime>12/12/2019 19:39:32</publishTime>
+    </File>
+    <File Include="Scripts/jeDate/skin/jedatefont.ttf">
+      <publishTime>12/12/2019 19:39:32</publishTime>
+    </File>
+    <File Include="Scripts/jeDate/skin/jedatefont.woff">
+      <publishTime>12/12/2019 19:39:32</publishTime>
+    </File>
+    <File Include="Scripts/myinfo.js">
+      <publishTime>12/15/2019 20:24:07</publishTime>
+    </File>
+    <File Include="Views/Shared/myinfo.aspx">
+      <publishTime>12/15/2019 20:20:54</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>12/10/2019 17:50:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/20/2020 15:46:23</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

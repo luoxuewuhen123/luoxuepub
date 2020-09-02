@@ -1,0 +1,310 @@
+﻿html, body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    /* overflow: auto; */
+    /* border: 1px solid #000; */
+}
+.percenter_wra {
+    margin-right: 50px
+}
+.navbar.navbar-default {
+    background-color: #fff;
+}
+.navbar.navbar-default{
+    margin-bottom: 0;
+}
+#Mcity{
+    margin-left: 50px;
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+#Msubmit {
+    padding: 15px 5px;
+}
+#Msubmit:hover{
+    color: red;
+}
+#myInfor{
+    margin-right: 50px;
+}
+/* 登录模态框实现 */
+#model_all{
+    z-index: 999;
+    background-color: #333;
+    opacity: 0.5; 
+    width: 100%;
+    height: 100%;
+    position: fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+    display: none;
+}
+.model_border{
+    display: none;
+    z-index: 1001;
+    width: 350px;
+    height: 400px;
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -175px;
+    margin-top: -200px;
+}
+.model_border .model_wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.model_wrapper .model_close{
+    position: absolute;
+    right: 0;
+    color: rgb(134, 128, 128);
+    padding: 7px;
+    cursor: pointer;
+}
+.model_wrapper .model_close:hover{
+    color: #000;
+}
+.us_wra{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+}
+.pw_wra{
+    position: absolute;
+    left: 30px;
+    top: 130px;
+}
+.audio_wra{
+    position: absolute;
+    left: 35px;
+    top: 170px;
+    /* vertical-align: center; */
+    /* border: 1px solid #000; */
+    padding-top: 3px;
+}
+.audio_wra #audio_pw{
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+    margin-bottom: 9px;
+    vertical-align: bottom;
+}
+.audio_wra .la_au{
+    color: rgb(158, 153, 153);
+    font-size: 13px;
+    vertical-align: center;
+}
+.sub_wra{
+    position: absolute;
+    top: 220px;
+    left: 30px;
+}
+#submit, #reg_submit{
+    width: 290px;
+}
+.reg_wra{
+    position: absolute;
+    top: 290px;
+    left: 30px;
+}
+.reg_wra a{
+    color : rgb(99, 150, 216);
+    cursor: pointer;
+    text-decoration: none;
+}
+/* 注册模态框 */
+.model_border2{
+    display: none;
+    z-index: 1002;
+    width: 350px;
+    height: 450px;
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -175px;
+    margin-top: -225px;
+}
+.pw_wra2{
+    position: absolute;
+    left: 30px;
+    top: 180px;
+}
+.tel_wra{
+    position: absolute;
+    left: 30px;
+    top: 230px;
+}
+.sub_reg{
+    position: absolute;
+    left: 30px;
+    top: 295px;
+}
+#myModel{
+    display: none;
+}
+/* 发布兼职模态框 */
+.model_issua{
+    /* padding-bottom: 0; */
+    z-index: 1000;
+    width: 450px;
+    height: 620px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -225px;
+    margin-top: -310px;
+    background: #fff;
+    display: none;
+}
+.model_issua .model_close3{
+    position: absolute;
+    right: 0;
+    color: rgb(134, 128, 128);
+    padding: 7px;
+    z-index: 10;
+    cursor: pointer;
+}
+.model_issua .model_close3:hover{
+    color: #000;
+}
+.model_issua .model_wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 25px 30px;
+}
+.model_issua .model_wrapper div{
+    margin-bottom: 35px;
+}
+.model_issua .model_wrapper #title_sel {
+    height: 33px;
+    margin-left: 10px;
+    /* vertical-align: bottom; */
+}
+.model_issua .model_wrapper #title_sel .title_sel_s{
+    display: inline-block;
+    width: 80px;
+}
+.model_issua .model_wrapper .work_title ul{
+    position: absolute;
+    left: 85px;
+    top: 30px
+}
+.model_issua .model_wrapper .work_title ul li,.model_issua .work_money_r .dropdown-menu li{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    /* width: 50px; */
+    cursor: pointer;
+}
+.model_issua .model_wrapper .work_title ul li:hover{
+    background: #f5f5f5;
+}
+.work_ti_r input{
+    width: 80px;
+}
+.work_ti_r #ed_time,.work_ti_r #st_time {
+    width: 50px;
+}
+.work_money_r{
+    position: relative;
+}
+.work_money_r #work_money_sel {
+    height: 33px;
+    margin-left: 10px;
+}
+.work_money_r div{
+    display: inline-block;
+    position: absolute;
+    left: 210px;
+}
+.work_money_r div .work_money_s{
+    width: 70px;
+    height: 33px;
+}
+.model_issua .work_day_r input{
+    width: 120px;
+}
+.model_issua #tijiao, .model_issua #tijiaoup{
+    width: 100%
+}
+.model_issua .work_money_r{
+    position: relative;
+}
+.model_issua .work_money_r .dropdown-menu{
+    position: absolute;
+    left: 83px;
+    top: 30px;
+}
+.model_issua .work_money_r .dropdown-menu li:hover{
+    background: #f5f5f5;
+}
+/*内容区域*/
+.content_bo {
+    width: 100%;
+}
+.content_sel {
+    width: 300px;
+    height: 800px;
+    border-right: 1px solid #808080;
+    float: left
+}
+.content_work ul li{
+    height: 35px;
+    width: 298px;
+    text-align:center;
+    line-height: 35px;
+    margin-top: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px 0;
+
+}
+.content_work ul li:hover {
+    background-color: #f5f5f5;
+}
+
+.content_workS {
+    display: flex;
+    max-height : 650px;
+    overflow-y: auto;
+    cursor: pointer;
+    flex-wrap: wrap    
+}
+.wo_co_r {
+    background: #f5f5f5;
+}
+.wo_co_r .work_show, .wo_co_r .work_show_to{
+    width:1000px;
+    padding: 20px 30px;          
+}
+.work_show span, .work_show_to span{
+    display: inline-block;
+}
+.work_show .work_titleS,.work_show_to .work_titleS{
+    width: 200px;
+}
+.work_show .work_placeS,.work_show_to .work_placeS {
+    width: 300px;
+}
+.work_show .work_startTimeS ,.work_show_to .work_startTimeS{
+    width: 250px;
+}
+.work_show .work_peoS,.work_show_to .work_peoS {
+    width: 100px
+}
+.wo_co_r {
+    border-bottom: 1px solid rgb(134, 128, 128);
+}
